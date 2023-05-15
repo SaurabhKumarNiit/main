@@ -1,39 +1,37 @@
-.footer
-{
+.footer {
     overflow: hidden;
     position: sticky;
     top: 100%;
-    background-color:whitesmoke;
+    background-color: whitesmoke;
     padding: 20px 10px;
 }
 
-h3 
-{
+h3 {
     font-weight: bold;
 
 }
-p 
-{
-    color:whitesmoke;
+
+p {
+    color: whitesmoke;
     font-size: 12px;
 }
-a 
-{
-    color:whitesmoke;
+
+a {
+    color: whitesmoke;
     text-decoration: none;
     padding: 0px 10px;
     font-size: 17px;
 }
-a:hover 
-{
+
+a:hover {
     color: var(--primary-color);
 }
-i 
-{
+
+i {
     padding: 0px 10px;
 }
 
 img:hover {
     transition: 0.5s ease-in-out;
     transform: scale(1.5);
-} 
+}

@@ -1,0 +1,91 @@
+
+
+.h1{
+    text-align: center;
+}
+
+p{
+    font-size: x-large;
+}
+
+.text{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.highlight{
+    font-family:cursive;
+}
+
+.banner
+{
+    
+    background-image: url('https://redefinestatus.com/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1568736772245-26914aae0b09%3Fixlib%3Drb-4.0.3%26q%3D80%26fm%3Djpg%26crop%3Dentropy%26cs%3Dtinysrgb&w=3840&q=75');
+    background-position: center;
+    height: 400px;
+    border-radius: 20px;
+    
+    background-size: cover;
+    animation: slider 25s infinite alternate-reverse;
+}
+@keyframes slider{
+    0%{
+        background-image: url('https://townsquare.media/site/189/files/2015/02/snow-covered-masked-rider-statue-Texas-Tech-University.png?w=1200&h=0&zc=1&s=0&a=t&q=89');
+    }
+    35%{
+        background-image: url('https://redefinestatus.com/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1568736772245-26914aae0b09%3Fixlib%3Drb-4.0.3%26q%3D80%26fm%3Djpg%26crop%3Dentropy%26cs%3Dtinysrgb&w=3840&q=75');
+    }
+    75%{
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSowNF_Hmz16Wv1wjoZBv_KetQRMdw4QTf0L8szlDZcuw&usqp=CAU&ec=48665701');
+    }
+    65%{
+        background-image: url('https://redefinestatus.com/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1568736772245-26914aae0b09%3Fixlib%3Drb-4.0.3%26q%3D80%26fm%3Djpg%26crop%3Dentropy%26cs%3Dtinysrgb&w=3840&q=75');
+    }
+    
+}
+#image1{
+    border-radius: 10px;
+  
+}
+.foodbox 
+{
+    padding: 10px 5px;
+} 
+.foodbox img
+{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.foodbox h1 
+{
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.viewmorebtn
+{
+    text-decoration: none;
+    background-color:var(--primary-color);
+    color: #000;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    
+}
+
+@media screen and (max-width:600px)
+{
+    .banner
+{
+    height: 700px;
+}
+}
+
+#item{
+    text-decoration: none;
+    color:black
+}
+img:hover {
+    transition: 0.3s ease-in-out;
+    transform: scale(1.1);
+} 
